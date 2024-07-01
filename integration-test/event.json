@@ -17,4 +17,8 @@
             "eventSourceARN": "arn:aws:kinesis:us-east-1:963656558707:stream/ride_events"
         }
     ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)

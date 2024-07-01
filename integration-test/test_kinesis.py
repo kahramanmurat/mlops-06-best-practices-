@@ -55,4 +55,8 @@ assert 'values_changed' not in diff
 assert 'type_changes' not in diff
 
 
+<<<<<<< HEAD
 print('all good')
+=======
+print('all good')
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)

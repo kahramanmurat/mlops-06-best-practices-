@@ -7,6 +7,10 @@ name = "pypi"
 boto3 = "*"
 mlflow = "*"
 scikit-learn = "==1.0.2"
+<<<<<<< HEAD
+=======
+toml = "*"
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 
 [dev-packages]
 pytest = "*"
@@ -14,6 +18,10 @@ deepdiff = "*"
 pylint = "*"
 black = "*"
 isort = "*"
+<<<<<<< HEAD
+=======
+pre-commit = "*"
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 
 [requires]
 python_version = "3.9"

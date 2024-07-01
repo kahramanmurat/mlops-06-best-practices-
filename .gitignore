@@ -1,4 +1,8 @@
 .env
 __pycache__
 .pytest_cache
+<<<<<<< HEAD
 .vscode
+=======
+.vscode
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)

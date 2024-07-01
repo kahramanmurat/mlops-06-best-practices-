@@ -1,15 +1,30 @@
+<<<<<<< HEAD
 import model
 from pathlib import Path
 
+=======
+from pathlib import Path
+
+import model
+
+
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 def read_text(file):
     test_directory = Path(__file__).parent
 
     with open(test_directory / file, 'rt', encoding='utf-8') as f_in:
         return f_in.read().strip()
 
+<<<<<<< HEAD
 def test_base64_decode():
     base64_input=read_text('data.b64')
     actual_result=model.base64_decode(base64_input)
+=======
+
+def test_base64_decode():
+    base64_input = read_text('data.b64')
+    actual_result = model.base64_decode(base64_input)
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
     expected_result = {
         "ride": {
             "PULocationID": 130,
@@ -40,6 +55,10 @@ def test_prepare_features():
 
     assert actual_features == expected_fetures
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 class ModelMock:
     def __init__(self, value):
         self.value = value
@@ -48,6 +67,10 @@ class ModelMock:
         n = len(X)
         return [self.value] * n
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 def test_predict():
     model_mock = ModelMock(10.0)
     model_service = model.ModelService(model_mock)
@@ -62,12 +85,20 @@ def test_predict():
 
     assert actual_prediction == expected_prediction
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 def test_lambda_handler():
     model_mock = ModelMock(10.0)
     model_version = 'Test123'
     model_service = model.ModelService(model_mock, model_version)
 
+<<<<<<< HEAD
     base64_input=read_text('data.b64')
+=======
+    base64_input = read_text('data.b64')
+>>>>>>> 8c93d3a (Re-initialize repository without old history.)
 
     event = {
         "Records": [
